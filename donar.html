@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Blood Donation Database</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../project/style/style.css">
+</head>
+<body id="h">
+		<div id="hh"><h1><marquee behavior="alternate" >Welcome to Blood Donation Management System</marquee></h1></div>
+<div >
+	<img id="logo" src="picture/abir15.jpg" >
+<nav id="mn">
+	<ul >
+		<li><a href="../project/project.html">Home</a></li>
+		<li><a href="#">Insert</a>
+		<ul>
+				<li><a href="../project/patient.html">Patient</a></li>
+				<li><a href="../project/donar.html">Donar</a></li>
+				<li><a href="../project/employee.html">Employee</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Search</a>
+			<ul>
+				<li><a href="../project/patient_search.php">Patient</a></li>
+				<li><a href="../project/donar_search.php">Donar</a></li>
+				<li><a href="../project/employee_search.php">Employee</a></li>
+			</ul>
+		</li>
+		<li><a href="#">View</a>
+			<ul>
+				<li><a href="../project/patient_view.php">Patient</a></li>
+				<li><a href="../project/donar_view.php">Donar</a></li>
+				<li><a href="../project/employee_view.php">Employee</a></li>
+			</ul>
+		</li>
+		<li><a href="../project/blood_report.php">Report</a></li>
+	</ul>
+</nav>
+</div>
+
+<link rel="stylesheet" type="text/css" href="../project/style/style1.css">
+<body id="h">
+<div>
+	<fieldset id="fs">
+		<legend id="log">Donar Form</legend>
+
+	<form  method="post" action="../project/connection/donar.php" >
+
+		<div id="input-group">
+		<label id="u">Donar_Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="text" name="Donar_Name" placeholder="dname ">
+	</div>
+	<div id="input-group">
+		<label id="u">Donar_Id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="text" name="Donar_Id" placeholder="did ">
+	</div>
+	<div id="input-group">
+		<label id="u">Donar_Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="text" name="Donar_Age" placeholder="dage ">
+	</div>
+	<div id="input-group">
+		<label id="u">Donar_Blood_Group:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="text" name="Donar_Blood_Group" placeholder="dbg ">
+	</div>
+	<div id="input-group">
+		<label id="u">Date_Of_Birth :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+		<input type="Date" name="Date_Of_Birth" placeholder="dob " required="dob">
+	</div>
+	<div id="input-group">
+		<label id="u">Last_Date_Of_Donation :&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+		<input type="Date" name="Last_Date_Of_Donation" placeholder="ldod " required="dob">
+	</div>
+	<div id="input-group">
+		<label id="u">Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		Male:<input type="radio" name="Gender" id="" value="male" id="s">Female: <input type="radio" name="gender" id="" value="female" id="s"></label>
+	</div>
+	<div id="input-group">
+		<div id="input-group">
+		<label id="u">Address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</label>
+		<input type="text" name="Address" placeholder="address " id="m">
+	</div>
+	<div id="input-group">
+		<label id="u">Contact_No :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="tel" name="Contact_No" placeholder="start with+880" required="phone">
+	</div>
+		<button type="submit" id="btn" name="submit">Register</button> <input type="Reset" name="Reset" id="btn">
+		<a href="project.html">Back</a>
+	</div>
+
+</form>
+</fieldset>
+</div>
+</header>
+<div >
+	<footer id="ft">
+			<br>Copyright Reserved @Md.Abir Hasan Id:17203067 Section:F <br>
+	</footer>
+</div>
+</body>
+
+</html>

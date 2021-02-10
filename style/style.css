@@ -1,0 +1,102 @@
+#h{
+	background-image: url(../../project/picture/abir16.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height: auto;
+	padding-top: 0px;
+	border-top: 0px;
+}
+ 
+#hh{
+	background-color: MidnightBlue   ;
+	text-align: center;
+	font-style: algerian;
+	font-size: 20px;
+	width:100%;
+	height: auto;
+	font-weight: bold;
+	color: DeepSkyBlue ;
+}
+
+#ft{
+
+	position: fixed;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    padding: 0px;
+    text-align: center;
+	font-style: times new roman;
+	background-color: DarkGreen ;
+	color: 	#800000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#mn{
+	padding: 0px 10px 30px 60px;
+	width:100%;
+	height: 100%;
+	margin: 5px auto;
+}
+
+#mn ul{
+	padding: 0;
+	margin: 0;
+}
+
+#mn ul li{
+	list-style:none; 
+	float: left;
+	padding: 0;
+	margin: 0; 
+	position:relative;
+}
+
+#mn ul li a{
+    text-decoration: none;
+    padding: 0 45px;
+    background-color: 	#20B2AA;
+    line-height: 40px;
+    display: block;
+    border-right:1px solid #000 
+}
+
+#mn ul li a:hover{
+     background-color: #00FF00 ; 
+}
+
+#mn ul li ul{
+    visibility: hidden;
+    position: absolute
+}
+
+#mn ul li:hover ul{
+     visibility: visible;
+}
+
+#mn ul li ul li{
+     width:150px;
+}
+
+#mn ul li ul li a{
+     border: 0px;
+}
+
+#mn ul li:hover ul li ul{
+     visibility: hidden;
+}
+
+#mn ul li ul li:hover ul{
+     visibility: visible;
+}
+
+#logo{
+  	padding: 0px 40px;
+	width:300px;
+	height: 100px;
+	margin: 0px auto;
+	float: left;
+}

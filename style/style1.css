@@ -1,0 +1,88 @@
+#h{
+	background-image: url(../../project/picture/abir8.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:1280px;
+	height:500px;
+	padding-top: 0px;
+	
+}
+
+#hh{
+	background-color: MidnightBlue   ;
+	text-align: center;
+	font-style: algerian;
+	font-size: 15px;
+	height: 7%;
+	font-weight: bold;
+	color: DeepSkyBlue ;
+} 
+#am
+{
+	background-color: MidnightBlue ;
+	text-align: center;
+	font-style: algerian;
+	font-size: 40px;
+	height: 10%;
+	font-weight: bold;
+	color: red;
+}
+#fs
+{
+	margin:0px 300px 0px 420px;
+	text-align: center;
+	background-color: rgb(60, 179, 113);
+}
+#log
+{
+	font-family: "Arial Black";
+	text-shadow: 2px 2px 8px white;
+
+}
+#m
+{
+	padding: 10px 20px 20px 5px;
+}
+
+#input-group {
+	margin: 10px 10px 5px 0px;
+
+}
+#u
+{
+	margin:20px 0px 20px -10px;
+
+}
+#u1
+{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+#ft{
+	position: fixed;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 8%;
+    padding: 0px;
+    text-align: center;
+	font-style: times new roman;
+	background-color: DarkGreen;
+	color: 	#800000;
+	font-size: 20px;
+	font-weight: bold;
+
+}
